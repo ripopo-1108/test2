@@ -1,0 +1,260 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+header {
+    text-align: right;
+    height: 100px;
+}
+
+header inner {
+    position: relative;
+
+}
+
+header  h1 {
+    position: absolute;
+    top:7px;
+
+}
+
+header h1 img {
+    width: 280px;
+    height: 90px;
+    
+}
+
+header ul {
+    display: inline-block;
+    list-style: none;
+    padding: 25px 0 ;
+}
+
+header ul li {
+    display: inline-block;
+    color:#6C7570;
+    text-align: left;
+    vertical-align: middle;
+
+}
+
+header ul li h2 {
+    line-height: 15px;
+    font-size:13px ;
+
+}
+
+header ul li:first-child{
+
+    margin-right: 20px;
+
+}
+
+header ul li p {
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+header ul li a {
+    font-size: 22px;
+    color: #fff;
+    text-decoration: none;
+    background-color: darkslategray;
+    height: 48px;
+    line-height: 48px;
+    display: inline-block;
+    padding: 0 15px;
+    border-radius: 5px;
+
+}
+
+header ul li a:hover {
+    color:rgba(255, 255,255, 75)
+}
+
+body {
+    line-height:1;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";   
+}
+
+.h1,h2 {
+    font-familt:inherit;
+}
+
+.inner {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul li {
+      display: inline-block;  
+
+}
+
+
+.nav ul {
+    list-style:none;
+    width: 1110px;
+
+}
+
+.inner nav {
+    background-color:#343A40;
+    text-align: center;
+}
+
+.inner nav ul li a {
+    height: 55px;
+    line-height: 55px;
+    display: inline-block;
+    color:gray;
+    text-decoration: none;
+    padding: 0 35px;
+}
+
+.inner nav ul li a:hover{
+    color: rgba(255, 255,255, 75);
+}
+
+
+.top {
+    height: 600px;
+    background-image:url(../images/201107/top-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+
+}
+
+.top-contents {
+    height: 300px;
+    width: 560px;
+    background-color: #fff;
+    border: 1px;
+    border-radius: 5px;
+    padding: 30px 15px;
+    background-origin:border-box;
+    display: inline-block;
+    text-align: left;
+    margin-top: 65px;
+
+}
+
+.top-contents h2 {
+    font-size: 55px;
+    font-weight: 300;
+    margin-bottom: 15px;
+    
+}
+
+.top-contents-p1 {
+
+    font-size: 18px;
+    font-weight: 300;
+    color: gray;
+    line-height: 1.5;
+    margin-bottom: 35px;
+    
+
+}
+
+.top-contents-p2 { 
+    font-size: 13px;
+    color:gray;
+    font-weight:300;
+
+
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
